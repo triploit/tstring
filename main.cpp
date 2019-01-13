@@ -8,7 +8,7 @@
 int main()
 {
     tri::string s = 'H';
-    
+
     std::cout << s << std::endl;
 
     s = s + "ello world";
@@ -24,5 +24,8 @@ int main()
     if (s.equalsIgnoreCase("good night, world!"))
         std::cout << "ok" << std::endl;
 
-    std::cout << s.endsWith("world!") << std::endl;
+    std::cout << s << std::endl;
+
+    if (s.endsWith("world!") && s.startsWith("Good"))
+        std::cout << "Good world!" << std::endl;
 }

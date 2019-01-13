@@ -277,7 +277,7 @@ namespace tri
 
         bool endsWith(const tri::string &s)
         {
-            return string(str.substr(str.size(), str.size() - s.length())).cxs() == s.cxs();
+            return string(str.substr(str.size() - s.length(), str.size())).cxs() == s.cxs();
         }
 
         bool startsWith(const tri::string &s)
