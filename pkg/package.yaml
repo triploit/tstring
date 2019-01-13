@@ -1,0 +1,8 @@
+name: "Triploit C++ String Library"
+description: "A C++ library for extended string classes."
+
+authors:
+    - survari
+        
+products:
+    ./tstring.hpp: "/usr/include/tstring.hpp"
