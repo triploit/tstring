@@ -25,3 +25,15 @@ std::cout << s << std::endl;
 if (s.endsWith("world!") && s.startsWith("Good"))
     std::cout << "Good world!" << std::endl;
 ```
+
+Output:
+
+```
+H
+Hello world!
+Good night, world!
+GOOD NIGHT!
+ok
+Good night, world!
+Good world!
+```
