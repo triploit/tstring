@@ -6,4 +6,4 @@ authors:
     - survari
         
 products:
-    ./tstring.hpp: "/usr/include/triploit/tstring.hpp"
+    - ./tstring.hpp: "/usr/include/triploit/tstring.hpp"
