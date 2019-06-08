@@ -1,6 +1,6 @@
 name: "Triploit C++ String Library"
 description: "A C++ library for extended string classes."
-version: "0.0.1a"
+version: "0.0.1"
 
 authors:
     - survari
